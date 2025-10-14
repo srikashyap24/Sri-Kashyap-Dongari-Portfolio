@@ -924,6 +924,10 @@ html {
         display: flex;
     }
 
+    .hero {
+        padding-top: 70px; /* Add top padding equal to navbar height */
+    }
+
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -951,6 +955,7 @@ html {
         text-align: center;
         gap: 2rem;
         padding: 1rem;
+        padding-top: 6rem; /* Add extra top padding to clear the navbar */
     }
 
     .hero-title {
@@ -1124,6 +1129,10 @@ html {
 }
 
 @media (max-width: 480px) {
+    .hero {
+        padding-top: 70px; /* Ensure hero content is not hidden behind navbar */
+    }
+
     .hero-title {
         font-size: 2rem;
     }
@@ -1229,6 +1238,7 @@ html {
 
     .hero-container {
         padding: 0.5rem;
+        padding-top: 6rem; /* Ensure hero content clears the navbar on small screens */
     }
 
     .timeline-content {
