@@ -325,10 +325,13 @@ html {
     justify-content: center;
     align-items: center;
     animation: fadeInRight 1s ease-out;
+    position: relative;
+    z-index: 20;
 }
 
 .hero-avatar {
     position: relative;
+    z-index: 20;
 }
 
 .profile-image {
@@ -340,6 +343,8 @@ html {
     box-shadow: var(--shadow-xl);
     animation: float 6s ease-in-out infinite;
     transition: transform 0.3s ease;
+    position: relative;
+    z-index: 20;
 }
 
 .profile-image:hover {
