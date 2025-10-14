@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Kashyap Dongari - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">SK</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Sri Kashyap Dongari</span>
+                </h1>
+                <p class="hero-subtitle">Computer Science Graduate & Machine Learning Enthusiast</p>
+                <p class="hero-description">
+                    Driven by innovation in AI, computer vision, and deep learning with hands-on experience in LLMs, object detection, and RAG systems. Currently pursuing a Master's in Computer Science at Blekinge.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/srikashyap24" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dongari-sri-kashyap-549760249/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:srikashyap2107@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <img src="profile.png" alt="Sri Kashyap Dongari" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am Sri Kashyap Dongari, an MSc Computer Science student at Blekinge Institute of Technology with a strong foundation in machine learning, deep learning, and AI automation. With expertise in Python, TensorFlow, PyTorch, and cloud platforms like AWS, I have developed several impactful projects including YOLOv8-based object detection systems achieving 91.2% mAP50 accuracy, hybrid CNN-Vision Transformer architectures for biometric identification with 97.46% accuracy, and LLM-powered automation pipelines using Retrieval Augmented Generation. My experience spans computer vision, natural language processing, and end-to-end AI system development, complemented by leadership experience founding a Data Science Club and professional certifications in AWS and generative AI. I am actively seeking thesis opportunities to apply my technical skills to real-world challenges in automotive technology and AI research.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">14+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">6+</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="education-header">
+                            <img src="bth.png" alt="BTH Logo" class="university-logo">
+                            <div class="education-text">
+                                <h3>Masters in Computer Science</h3>
+                                <h4>Blekinge Institute of Technology, Karlskrona, Sweden</h4>
+                                <span class="timeline-date">2025 – 2026</span>
+                                <p><strong>Achievement:</strong> Awarded 50% merit scholarship for academic excellence</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="education-header">
+                            <img src="jntuh.png" alt="JNTUH Logo" class="university-logo">
+                            <div class="education-text">
+                                <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                                <h4>Jawaharlal Nehru Technological University, Hyderabad, India</h4>
+                                <span class="timeline-date">2021 – 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Freelance Full-Stack Developer</h3>
+                        <h4>Ailand Media, Karlskrona, Sweden</h4>
+                        <span class="experience-date">Oct 2025 - Present</span>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Transformed a monolithic project into three microservices frontend, backend, and database, ensuring scalability and maintainability</li>
+                        <li>Utilized Prisma ORM for database management and integrated CORS, middleware, and authentication features</li>
+                        <li>Implemented Facebook and LinkedIn login for direct posting and enhanced user engagement</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-title">
+                            <h3>Founder and Club Lead</h3>
+                            <h4>Data Science Club, Hyderabad, India</h4>
+                            <span class="experience-date">Nov 2023 – Dec 2024</span>
+                        </div>
+                        <img src="datasciencelogo.png" alt="Data Science Club Logo" class="company-logo">
+                    </div>
+                    <ul class="experience-details">
+                        <li>Founded a student-led club to promote collaboration and skill-building in data science</li>
+                        <li>Organized expert talks and hands-on ML/data analytics workshops</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">HuggingFace</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Generative AI & Agents</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">GPT</span>
+                        <span class="skill-tag">Claude</span>
+                        <span class="skill-tag">LangGraph</span>
+                        <span class="skill-tag">CrewAI</span>
+                        <span class="skill-tag">AutoGen</span>
+                        <span class="skill-tag">AWS Bedrock</span>
+                        <span class="skill-tag">SageMaker</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI Engineering</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">RAG Pipelines</span>
+                        <span class="skill-tag">Transformers</span>
+                        <span class="skill-tag">Fine-tuning</span>
+                        <span class="skill-tag">Embedding</span>
+                        <span class="skill-tag">Explainable AI</span>
+                        <span class="skill-tag">Autonomous Systems</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Requirement Contextualization</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Model Context Protocol</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                        <span class="skill-tag">Solution Decomposition</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS (Certified)</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">CI/CD Workflows</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data & Analytics</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">Scikit-Learn</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">ChromaDB</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Prisma</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">English (Professional)</span>
+                        <span class="skill-tag">Telugu (Native)</span>
+                        <span class="skill-tag">Swedish (Beginner)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Conversational HR Agent with Amazon Bedrock</h3>
+                        <a href="https://github.com/srikashyap24/AI-Powered-HR-Assistant-using-Amazon-Bedrock" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Built a RAG-based assistant using Bedrock Knowledge Bases to automate HR workflows, 
+                        integrating Lambda and DynamoDB for document-grounded interactions.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">AWS Bedrock</span>
+                        <span class="tech-tag">S3</span>
+                        <span class="tech-tag">Lambda</span>
+                        <span class="tech-tag">DynamoDB</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Multi-Agent Text & Speech Pipeline (AWS SageMaker)</h3>
+                        <a href="https://github.com/srikashyap24/AI-Text-Speech-Processing-Pipeline-using-Amazon-SageMaker" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Designed multi-agent AI pipeline on SageMaker analyzing text/speech from documents and audio, 
+                        integrating AWS services for automated workflows and centralized S3 processing.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">AWS SageMaker</span>
+                        <span class="tech-tag">S3</span>
+                        <span class="tech-tag">Textract</span>
+                        <span class="tech-tag">Comprehend</span>
+                        <span class="tech-tag">Polly</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>AI-Powered Data Analysis Agent with MCP Architecture</h3>
+                        <a href="https://github.com/srikashyap24/AI-Agent-with-Custom-MCP--For-Data-Analysis" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Created modular AI agent with Flask and MCP server for CSV analysis, generating visualizations 
+                        and delivering LLM-driven insights via interactive Markdown-enabled dashboard.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">OpenAI API</span>
+                        <span class="tech-tag">MCP Server</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Matplotlib</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Smart Technical Document Assistant using RAG</h3>
+                        <a href="https://github.com/srikashyap24/Smart-Technical-Document-Assistant-using-RAG" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Built RAG-powered GenAI assistant to query technical PDFs with accurate citation-backed answers 
+                        using LangChain, ChromaDB, and Sentence-Transformers for fast retrieval.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">ChromaDB</span>
+                        <span class="tech-tag">Sentence-Transformers</span>
+                        <span class="tech-tag">DeepSeek LLM</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>AI Agent for Data Analysis</h3>
+                        <a href="https://github.com/srikashyap24/AI-Agent-with-Custom-MCP--For-Data-Analysis" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Developed an AI-driven data analysis agent leveraging MCP and OpenAI API to deliver 
+                        cost-efficient insights and interactive visualizations from CSV datasets.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">OpenAI API</span>
+                        <span class="tech-tag">MCP</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Unified Object Detection System for Industrial Safety</h3>
+                        <a href="https://github.com/srikashyap24/Unified-Object-Detection-System-for-Industrial-Safety" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Developed a YOLOv8-based deep learning model to simultaneously detect PPE, mobile phone usage, 
+                        and smoking behavior, achieving 91.2% mAP50 accuracy.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">MakeSenseAI</span>
+                        <span class="tech-tag">Ultralytics</span>
+                        <span class="tech-tag">YOLOv8</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Cattle Identification via Muzzle Print</h3>
+                        <a href="https://github.com/srikashyap24/Cattle-Identification-via-Muzzle-Print" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Developed a novel hybrid deep learning model combining EfficientNetV2 (CNN) and Vision Transformer (ViT) 
+                        with Multi-Head Attention, achieving 97.46% accuracy.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">CNN</span>
+                        <span class="tech-tag">Vision Transformer</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Network Intrusion Anomaly Detection</h3>
+                        <a href="https://github.com/srikashyap24/Network-Intrusion-Anomaly-Detection" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Developed and evaluated Isolation Forest, LSTM, and Stacked LSTM Autoencoders for network 
+                        intrusion detection achieving 93% accuracy.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">LSTM</span>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Custom CNN for CIFAR-100 Classification</h3>
+                        <a href="https://github.com/srikashyap24/Custom-CNN-for-CIFAR-100-Classification" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Designed a lightweight 6-layer CNN that outperformed VGG19 and achieved competitive accuracy 
+                        with DenseNet121, ResNet50, and EfficientNetB0 on CIFAR-100.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Keras</span>
+                        <span class="tech-tag">CNN</span>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Kubernetes-Based Microservices Platform</h3>
+                        <a href="https://github.com/srikashyap24/Build-Something-Project" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p class="project-description">
+                        Built and deployed three microservices on Kubernetes with APIs for network packet ingestion 
+                        and analytics, enabling monitoring of latency and bandwidth usage.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Kubernetes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>AWS Certified Cloud Practitioner</h3>
+                    <p>Amazon Web Services</p>
+                    <span class="cert-date">April 2025</span>
+                    <a href="https://www.credly.com/badges/849c0b04-58bc-4c65-a4b4-f19341565b90/public_url" target="_blank" class="cert-link">
+                        View Certificate
+                    </a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <h3>AWS SimuLearn: Generative AI Practitioner</h3>
+                    <p>Amazon Web Services</p>
+                    <span class="cert-date">August 2025</span>
+                    <a href="#" target="_blank" class="cert-link">
+                        View Certificate
+                    </a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Fundamentals of AI Agents</h3>
+                    <p>Hugging Face</p>
+                    <span class="cert-date">August 2025</span>
+                    <a href="#" target="_blank" class="cert-link">
+                        View Certificate
+                    </a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Introduction to Statistics</h3>
+                    <p>Stanford University (Online)</p>
+                    <span class="cert-date">Oct 2024</span>
+                    <a href="https://coursera.org/share/8d957ec7c18ba7d8305fdcc61f002bdd" target="_blank" class="cert-link">
+                        View Certificate
+                    </a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>SQL (Advanced) Certificate</h3>
+                    <p>HackerRank</p>
+                    <span class="cert-date">Oct 2023</span>
+                    <a href="https://www.hackerrank.com/certificates/10067b6c479a" target="_blank" class="cert-link">
+                        View Certificate
+                    </a>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Complete Data Analyst Bootcamp</h3>
+                    <p>Udemy</p>
+                    <span class="cert-date">July 2023</span>
+                    <a href="https://www.udemy.com/certificate/UC-03f00c30-537d-44b0-8dc6-aedf693de24c/" target="_blank" class="cert-link">
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always open to discussing new opportunities, innovative projects, 
+                        or potential collaborations. Feel free to reach out!
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:srikashyap2107@gmail.com">srikashyap2107@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+46734968765">+46-734968765</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <span>Karlskrona, Sweden</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/srikashyap24" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/dongari-sri-kashyap-549760249/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:srikashyap2107@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sri Kashyap Dongari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
